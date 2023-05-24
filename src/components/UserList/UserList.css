@@ -1,0 +1,84 @@
+.info {
+    padding-left: 5rem;
+    color: rgba(46, 1, 46, 0.667);
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.user_card_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.user_card_container li {
+    list-style: none;
+}
+
+.user_card {
+    width: 400px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px rgba(136, 90, 136, 0.667) solid;
+    box-shadow: 5px 5px 20px 5px rgba(15, 0, 15, 0.667);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.user_card:hover {
+    border: 2px rgb(33, 99, 160) solid;
+}
+
+.user_card h2 {
+    margin-top: 0px;
+    border-bottom: 1px rgba(165, 124, 165, 0.667) solid;
+}
+
+.user_card h3 {
+    color: rgb(21, 60, 97);
+    margin-top: 25px;
+}
+
+.user_card div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border-top: 1px #caca solid;
+    padding-top:  10px;
+    transition: 0.5s;
+}
+
+.btn_delete {
+    width: 50px;
+    height: 40px;
+    background-image: url(/src/assets/6363913.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_delete:hover {
+    transform: scale(1.1);
+}
+
+.btn_edit {
+    width: 50px;
+    background-image: url(/src/assets/1719089.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn_edit:hover {
+    transform: scale(1.1);
+}
